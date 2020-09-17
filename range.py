@@ -20,7 +20,7 @@ print(new_sentence)
 #  [0:2] will only print 'Th'
 
 
-********
+# #######################
 
 # # [start:stop:step]
 #  +---+---+---+---+---+---+
@@ -34,3 +34,10 @@ print(new_sentence)
 #  +---+---+---+---+---+---+
 #  0   1   2   3   4   5   6  (slice position)
 #    0   1   2   3   4   5    (index position)
+
+starter_sentence = 'The quick brown fox jumps'
+
+# new_sentence = 'Thy' + starter_sentence[3:25]
+new_sentence = 'Thy' + starter_sentence[3:]
+
+print(new_sentence)
