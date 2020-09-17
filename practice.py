@@ -21,7 +21,7 @@ print(receipt)
 first = 'Springer'
 second = 'Bregman'
 third = 'Altuve'
-
+                       
 print(second)
 
 second = 'Correa'
