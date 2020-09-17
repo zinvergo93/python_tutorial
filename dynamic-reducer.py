@@ -8,7 +8,7 @@ dynamic_reducer([1, 2, 3], '*') -> 6
 dynamic_reducer([1, 2, 3], '/') -> 0.166666667
 """
 
-# my attempt*****
+# my wrong attempt*****
 # def dynamic_reducer(arr, op):
 #     result = arr + op
 #     print(f"{arr} + {op}" == result)
@@ -34,3 +34,17 @@ print(dynamic_reducer([1, 2, 3], '+'))
 print(dynamic_reducer([1, 2, 3], '-'))
 print(dynamic_reducer([1, 2, 3], '*'))  
 print(dynamic_reducer([1, 2, 3], '/'))
+
+zac = {
+    "name": "zac",
+    "age": "27",
+    "location": "Illinois",
+}
+
+print(zac["name"])
+print(zac["age"])
+print(zac["location"])
+
+name = 'Zachary'
+
+print(name[0:3])
