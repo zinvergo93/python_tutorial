@@ -11,40 +11,40 @@
 # import operator
 # from functools import reduce
 
-# zac = {
-#     "name": "Zac",
-#     "age": "27",
-#     "products": [
-#         {
-#             "name": "Tortured Souls action figure",
-#             "price": "$55",
-#         },
-#         {
-#             "name": "Figma Silent Hill: Bubble Nurse action figure",
-#             "price": "$65"
-#         }
-#     ]
+zac = {
+    "name": "Zac",
+    "age": "27",
+    "products": [
+        {
+            "name": "Tortured Souls action figure",
+            "price": "55",
+        },
+        {
+            "name": "Figma Silent Hill: Bubble Nurse action figure",
+            "price": "65"
+        }
+    ]
 
-# }
+}
 
 
 
-# email_content = f"""
+email_content = f"""
 
-# Hi {zac["name"]},
+Hi {zac["name"]},
 
-# Thank you for purchasing {zac["products"][0]["name"]} and {zac["products"][1]["name"]}.
+Thank you for purchasing {zac["products"][0]["name"]} and {zac["products"][1]["name"]}.
 
-# Each figure costs {zac["products"][0]["price"]} and {zac["products"][1]["price"]}, respectively.
+Each figure costs ${zac["products"][0]["price"]} and ${zac["products"][1]["price"]}, respectively.
 
-# Bringing your total to
+Bringing your total to ${55 + 65}
 
-# Regards,
+Regards,
 
-# Sales Team
-# """
+Sales Team
+"""
 
-# print(email_content)
+print(email_content)
 
 
 # name = 'Zac'

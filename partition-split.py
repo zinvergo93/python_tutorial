@@ -11,17 +11,24 @@
 # print(second)
 # print(third)
 
-tags = 'python,coding,programming,development'
+# tags = 'python,coding,programming,development'
 
-list_of_tags = tags.split(',')
+# list_of_tags = tags.split(',')
 
-print(list_of_tags)
+# print(list_of_tags)
 
-list_of_tags = tags.split()
+# list_of_tags = tags.split()
 
-print(list_of_tags)
+# print(list_of_tags)
 
-heading= "Python: An Introduction"
+# heading= "Python: An Introduction"
 
-heading_list = heading.split(': ')
-print(heading_list)
+# heading_list = heading.split(': ')
+# print(heading_list)
+
+
+# name = "Zachary"
+
+# new_name = list(name)
+
+# print(new_name)
