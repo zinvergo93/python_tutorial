@@ -75,6 +75,3 @@ print(email_content)
 
 # print(query) ---- True
 # print(query_two) ---- False
-
-if "Zac" in name:
-    print("You're pretty cool")
