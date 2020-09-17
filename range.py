@@ -18,3 +18,19 @@ new_sentence = first_word
 print(new_sentence)
 # will print 'The' [0:3] will read until spot 3
 #  [0:2] will only print 'Th'
+
+
+********
+
+# # [start:stop:step]
+#  +---+---+---+---+---+---+
+#  | P | y | t | h | o | n |
+#  +---+---+---+---+---+---+
+#  0   1   2   3   4   5   6
+# -6  -5  -4  -3  -2  -1 
+
+#  +---+---+---+---+---+---+
+#  | P | y | t | h | o | n |
+#  +---+---+---+---+---+---+
+#  0   1   2   3   4   5   6  (slice position)
+#    0   1   2   3   4   5    (index position)
