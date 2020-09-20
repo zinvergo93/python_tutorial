@@ -69,6 +69,25 @@ tags = [
 
 # print(sorted_tags)
 
-tags.sort(reverse = True)
+# tags.sort(reverse = True)
 
-print(tags)
+# print(tags)
+
+sale_prices = [
+  100,
+  83,
+  220,
+  40,
+  100,
+  400,
+  10,
+  1,
+  3
+]
+
+# sale_prices.sort()
+sorted_list = sorted(sale_prices, reverse = True)
+# Keeps original list values intact, and allows to sort in separate variable
+
+print(sale_prices)
+print(sorted_list)
