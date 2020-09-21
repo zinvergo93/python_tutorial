@@ -35,16 +35,16 @@ print(dynamic_reducer([1, 2, 3], '-'))
 print(dynamic_reducer([1, 2, 3], '*'))  
 print(dynamic_reducer([1, 2, 3], '/'))
 
-zac = {
-    "name": "zac",
-    "age": "27",
-    "location": "Illinois",
-}
+# zac = {
+#     "name": "zac",
+#     "age": "27",
+#     "location": "Illinois",
+# }
 
-print(zac["name"])
-print(zac["age"])
-print(zac["location"])
+# print(zac["name"])
+# print(zac["age"])
+# print(zac["location"])
 
-name = 'Zachary'
+# name = 'Zachary'
 
-print(name[0:3])
+# print(name[0:3])
