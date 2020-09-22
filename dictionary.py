@@ -24,11 +24,11 @@ print(list(players.values()))
 # player_names = list(players.copy().values())
 # print(player_names)
 
-# teams = {
-#     "astros": ["Altuve", "Correa", "Bregman"],
-#     "angels": ["Trout", "Pujols"],
-#     "yankees": ["Judge", "Stanton"],
-# }
+teams = {
+    "astros": ["Altuve", "Correa", "Bregman"],
+    "angels": ["Trout", "Pujols"],
+    "yankees": ["Judge", "Stanton"],
+}
 # teams = {
 #     "astros": ["Altuve", "Correa", "Bregman"],
 #     "angels": ["Trout", "Pujols"],
@@ -52,9 +52,9 @@ print(list(players.values()))
 # featured_team = teams.get('yankees', 'no featured team')
 
 # print(featured_team)
-# teams['red sox'] = ['Price', 'Betts']
+teams['red sox'] = ['Price', 'Betts']
 
-# print(teams)
+print(teams)
 # print(teams['astros'][0:3])
 # print(teams['yankees'])
 

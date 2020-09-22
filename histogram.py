@@ -14,3 +14,6 @@ sales = {
 
 for key, value in sales.items():
     print(key[0] + " " + value * "$")
+
+for page in sales.items():
+    print(page)
